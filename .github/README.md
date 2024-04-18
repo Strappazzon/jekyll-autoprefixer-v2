@@ -16,10 +16,8 @@
 
 Add this line to your `Gemfile`:
 
-<!-- Install gem from Git source: https://stackoverflow.com/a/28442337 -->
-
 ```rb
-gem 'jekyll-autoprefixer-v2', git: 'https://github.com/Strappazzon/jekyll-autoprefixer-v2.git', branch: 'master'
+gem 'jekyll-autoprefixer-v2'
 ```
 
 Then execute `bundle install` to install the Gem.
