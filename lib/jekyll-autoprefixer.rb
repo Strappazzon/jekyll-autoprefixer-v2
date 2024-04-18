@@ -1,6 +1,3 @@
-# Frozen-string-literal: true
-# Encoding: utf-8
-
 require 'jekyll'
 
 require_relative 'jekyll/patches'
@@ -15,7 +12,7 @@ Jekyll::Hooks.register :site, :post_render do |site|
   site.each_site_file do |item|
     if site.regenerator.regenerate?(item)
       ext = File.extname(item.destination(site.dest))
-      site.autoprefixer.batch.push(item) if ext == ".css"
+      site.autoprefixer.batch.push(item) if ext == '.css'
     end
   end
 end

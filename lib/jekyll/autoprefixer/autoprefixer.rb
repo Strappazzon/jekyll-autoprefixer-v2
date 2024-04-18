@@ -1,6 +1,3 @@
-# Frozen-string-literal: true
-# Encoding: utf-8
-
 require 'autoprefixer-rails'
 
 module Jekyll
@@ -10,13 +7,13 @@ module Jekyll
 
       def initialize(site)
         @site = site
-        @batch = Array.new
+        @batch = []
       end
 
       def process()
         options = @site.config['autoprefixer'] || {}
 
-        if !options['only_production'] || Jekyll.env == "production"
+        if !options['only_production'] || Jekyll.env == 'production'
           @batch.each do |item|
             path = item.destination(@site.dest)
 

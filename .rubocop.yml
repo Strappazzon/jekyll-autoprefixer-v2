@@ -1,0 +1,34 @@
+# Default rules
+# See: https://docs.rubocop.org/rubocop/cops.html
+
+AllCops:
+  NewCops: enable
+
+# RubyGems MFA
+Gemspec/RequireMFA:
+  Enabled: false
+
+# Max line length
+Layout/LineLength:
+  Enabled: true
+  Max: 160
+
+# Don't check methods length
+Metrics/MethodLength:
+  Enabled: false
+
+# Allow parentheses on methods with no arguments
+Style/DefWithParentheses:
+  Enabled: false
+
+# Don't require top-level documentation
+Style/Documentation:
+  Enabled: false
+
+# Allow current directory/dots in expand_path arguments
+Style/ExpandPathArguments:
+  Enabled: false
+
+# Don't add frozen_string_literal magic comment
+Style/FrozenStringLiteralComment:
+  Enabled: false
