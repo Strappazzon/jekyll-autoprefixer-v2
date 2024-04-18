@@ -1,4 +1,2 @@
-*~
-*.old
-Gemfile.lock
-
+# Build output
+*.gem
