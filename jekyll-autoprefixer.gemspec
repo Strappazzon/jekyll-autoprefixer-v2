@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.name          = 'jekyll-autoprefixer-v2'
   spec.version       = Jekyll::Autoprefixer::VERSION
   spec.authors       = ['Vincent Wochnik', 'Alberto Strappazzon']
-  spec.description   = 'Autoprefixer integration for Jekyll'
-  spec.summary       = 'This plugin provides simple autoprefixer support for Jekyll.'
+  spec.summary       = 'Autoprefixer integration for Jekyll'
+  spec.description   = 'This plugin provides simple autoprefixer support for Jekyll.'
   spec.homepage      = 'https://github.com/Strappzzzon/jekyll-autoprefixer-v2'
   spec.license       = 'MIT'
 
