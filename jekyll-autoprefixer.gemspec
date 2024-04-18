@@ -15,8 +15,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Vincent Wochnik', 'Alberto Strappazzon']
   spec.homepage      = 'https://github.com/Strappzzzon/jekyll-autoprefixer-v2'
 
-  spec.files         = [*Dir["lib/**/*.rb"], "README.md", "LICENSE.md"]
   spec.require_paths = ["lib"]
+  spec.files         = [*Dir['lib/**/*.rb'], 'LICENSE.txt']
 
   spec.required_ruby_version = '>= 3.2.2'
   spec.add_runtime_dependency 'autoprefixer-rails', '~> 10.4'
