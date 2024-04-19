@@ -14,10 +14,17 @@
 
 ## Installation
 
-Add this line to your `Gemfile`:
+Add one of these lines to your `Gemfile`:
 
 ```rb
+# always use the latest version
 gem 'jekyll-autoprefixer-v2'
+
+# use pessimistic lock
+gem 'jekyll-autoprefixer-v2', ~> '2.0'
+
+# fetch gem from git
+gem 'jekyll-autoprefixer-v2', git: 'https://github.com/Strappazzon/jekyll-autoprefixer-v2.git', tag: '2.0.0'
 ```
 
 Then execute `bundle install` to install the Gem.
