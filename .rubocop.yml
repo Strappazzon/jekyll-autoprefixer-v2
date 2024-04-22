@@ -17,6 +17,11 @@ Layout/LineLength:
 Metrics/MethodLength:
   Enabled: false
 
+# snake_case file name exclusions
+Naming/FileName:
+  Enabled: true
+  Exclude: ["lib/jekyll-autoprefixer.rb"]
+
 # Allow parentheses on methods with no arguments
 Style/DefWithParentheses:
   Enabled: false
