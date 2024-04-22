@@ -9,9 +9,7 @@
 		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
 		"editor.insertSpaces": true,
 		"editor.quickSuggestions": {
-			"comments": "off",
-			"other": "off",
-			"strings": "off"
+			"other": "off"
 		},
 		"editor.tabSize": 2,
 		"files.trimTrailingWhitespace": false
@@ -25,21 +23,46 @@
 		"editor.tabSize": 2,
 		"files.eol": "\n"
 	},
+	"[scminput]": {
+		"editor.rulers": [
+			70
+		]
+	},
 	"[shellscript]": {
 		"editor.insertSpaces": true,
 		"editor.tabSize": 2,
 		"files.eol": "\n"
 	},
+	"[yaml]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+	"editor.defaultFormatter": null,
 	"editor.detectIndentation": false,
 	"editor.rulers": [],
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"Gemfile": "Gemfile.lock"
+	},
+	"files.exclude": {
+		"**/.ruby-lsp": true
+	},
 	"files.insertFinalNewline": true,
 	"files.readonlyInclude": {
+		".ruby-lsp/**/*": true,
 		"**/Gemfile.lock": true,
-		"**/LICENSE.txt": true
+		"**/LICENSE*": true
 	},
 	"files.trimFinalNewlines": true,
 	"files.trimTrailingWhitespace": true,
+	"git.inputValidation": true,
+	"git.inputValidationLength": 70,
+	"git.inputValidationSubjectLength": 70,
+	"markdown.validate.enabled": false,
 	"rubyLsp.formatter": "rubocop",
+	"search.exclude": {
+		"**/.ruby-lsp": true
+	},
 	"terminal.integrated.defaultProfile.windows": "WSL",
 	"terminal.integrated.profiles.windows": {
 		"WSL": {
