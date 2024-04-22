@@ -1,0 +1,19 @@
+#!/bin/bash -e
+
+bin/branding
+
+if [ -z "$(command -v ruby)" ]; then
+  echo "Ruby is not installed. Cannot proceed." >&2
+  exit 1
+fi
+
+if [ -z "$(command -v bundle)" ]; then
+  echo "Bundler is not installed. Installing..."
+  if [ -f Gemfile.lock ] && grep "BUNDLED WITH" Gemfile.lock >/dev/null; then
+    gem install bundler -v "$(grep 'BUNDLED WITH' -A1 Gemfile.lock | tail -n 1)"
+  fi
+fi
+
+if [ -f Gemfile ]; then
+  bundle install
+fi
