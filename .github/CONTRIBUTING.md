@@ -29,7 +29,7 @@ If you then still need to ask a question and need clarification you can [create 
 ### DO NOT post "+1" comments
 
 If you don't have any additional info/context to add but would like to indicate that you're affected by the issue, upvote the original issue.  
-See: [Add Reactions](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/)
+See: [Add Reactions](https://github.blog/news-insights/product-news/add-reactions-to-pull-requests-issues-and-comments/)
 
 ## Getting Started
 
@@ -38,7 +38,7 @@ Before you can start contributing, you'll need to set up your environment first.
 ### Dependencies
 
 You will need [Ruby](https://www.ruby-lang.org) installed.  
-I recommend you install it using [rbenv](https://github.com/rbenv/rbenv), [asdf](https://github.com/asdf-vm/asdf), [frum](https://github.com/TaKO8Ki/frum) or other packaging system, before attempting to install the dependencies.
+I recommend you install it using [rbenv](https://github.com/rbenv/rbenv), [asdf](https://github.com/asdf-vm/asdf) or other packaging system, before attempting to install the dependencies.
 
 Clone the repo and run `bin/bootstrap` to install the required dependencies.
 
