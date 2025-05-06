@@ -21,7 +21,7 @@ Add one of these lines to your `Gemfile`:
 gem 'jekyll-autoprefixer-v2'
 
 # use pessimistic lock
-gem 'jekyll-autoprefixer-v2', ~> '2.0'
+gem 'jekyll-autoprefixer-v2', '~> 2.0'
 
 # fetch gem from git
 gem 'jekyll-autoprefixer-v2', git: 'https://github.com/Strappazzon/jekyll-autoprefixer-v2.git', tag: '2.0.0'
