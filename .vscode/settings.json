@@ -14,6 +14,12 @@
 		"editor.tabSize": 2,
 		"files.trimTrailingWhitespace": false
 	},
+	"[plaintext][txt]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"files.insertFinalNewline": false,
+		"files.trimTrailingWhitespace": false
+	},
 	"[ruby]": {
 		"editor.defaultFormatter": "Shopify.ruby-lsp",
 		"editor.insertSpaces": true,
@@ -42,7 +48,7 @@
 	"editor.rulers": [],
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
-		"Gemfile": "Gemfile.lock"
+		"*.gemspec": "Gemfile*"
 	},
 	"files.exclude": {
 		"**/.ruby-lsp": true
@@ -60,8 +66,10 @@
 	"git.inputValidationSubjectLength": 70,
 	"markdown.validate.enabled": false,
 	"rubyLsp.formatter": "rubocop",
+	"scss.validate": false,
 	"search.exclude": {
-		"**/.ruby-lsp": true
+		"**/.ruby-lsp": true,
+		"*.swp": true
 	},
 	"terminal.integrated.defaultProfile.windows": "WSL",
 	"terminal.integrated.profiles.windows": {
