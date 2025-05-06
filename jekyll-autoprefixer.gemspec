@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.name          = 'jekyll-autoprefixer-v2'
   spec.version       = Jekyll::Autoprefixer::VERSION
   spec.authors       = ['Vincent Wochnik', 'Alberto Strappazzon']
-  spec.summary       = 'Autoprefixer integration for Jekyll'
-  spec.description   = 'This plugin provides simple autoprefixer support for Jekyll.'
+  spec.summary       = 'Autoprefixer integration for Jekyll.'
+  spec.description   = 'This plugin provides autoprefixer support for Jekyll.'
   spec.homepage      = 'https://github.com/Strappzzzon/jekyll-autoprefixer-v2'
   spec.license       = 'MIT'
 
@@ -16,5 +16,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.required_ruby_version = '>= 3.2.2'
-  spec.add_runtime_dependency 'autoprefixer-rails', '~> 10.4'
+
+  spec.add_dependency 'autoprefixer-rails', '~> 10.4'
 end
